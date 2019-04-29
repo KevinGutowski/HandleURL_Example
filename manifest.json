@@ -1,0 +1,18 @@
+{
+  "identifier": "com.sketchapp.examples.log-message",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Log Message",
+      "identifier": "log-message",
+      "script": "./log-message.js",
+      "handlers": {
+        "actions": {
+          "HandleURL": "handleURL"
+        }
+      }
+    }
+  ]
+}

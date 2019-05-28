@@ -6,4 +6,6 @@
     - `path`: path: a string containing everything after `sketch://plugin` (eg. `/my.plugin.identifier/my.command.identifier`).
     - `query`: an object containing the query of the URL (eg. for `sketch://plugin/my.plugin.identifier/my.command.identifier?foo=bar&baz=qux`, `query` will be `{ foo: 'bar', baz: 'quz' }`).
 
-- Note that to run the plugin you will need to have a document open
+---
+
+Example url to test with: `sketch://plugin/com.sketchapp.examples.log-message/log-message?foo=hello%20world`
